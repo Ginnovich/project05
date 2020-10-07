@@ -1,0 +1,515 @@
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url(../fonts/Comfortaa-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url(../fonts/GOTHIC400);
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url(../fonts/GothamPro.woff);
+}
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+    font-family: 'Comfortaa-Bold';
+    
+}
+
+
+
+/**** header ****/ 
+
+
+
+.logo {
+    margin: 50px 0 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav > a {
+    padding: 0 45px;
+    font-family: 'CenturyGothic';
+    line-height: 12px;
+    font-size: 12px;
+    text-align: center;
+    color: #8B8B8B;
+    text-decoration: none;
+}
+
+.nav > a:first-child {
+    padding: 0;
+}
+
+.nav > a:last-child {
+    padding: 0;
+}
+
+
+
+/**** hero ****/ 
+
+
+
+h1 {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: center;
+    color: #70CEE6;
+    margin: 30px auto;
+}
+
+.children {
+    background: #70CEE6;
+    background-image: url(../img/leaf.svg);
+    position: relative;
+}
+
+#hero h2 {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 39px;
+    color: #ffffff;
+}
+
+.children > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-right: 35px;
+}
+
+
+
+/**** subjects ****/
+
+
+
+h3 {
+    font-family: 'GothamPro';
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    color: #8B8B8B;
+}
+
+
+.gradient {
+    background-image: url(../img/leafpink.svg), url(../img/pinkgradient.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 50px auto 0 auto;
+    width: 87%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.description {
+    width: 80%;
+    padding-left: 46px;
+}
+
+#subjects h2 {
+    margin: 25px 0;
+}
+
+.button {
+    width: 200px;
+    height: 47px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 46px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button > h5 {
+    color: #ffffff;
+}
+
+h5 {
+    font-family: 'Comfortaa-Bold';
+    font-size: 15px;
+    line-height: 48px;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'GothamPro';
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    position: absolute;
+}
+
+.gradient > img {
+    margin-top: -20px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin: auto;
+}
+
+.choice {
+    border: 2px solid #FFABC2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: 25px 0px;
+    width: 200px;
+    height: 250px;
+}
+
+.choice > a > h5 {
+    color: #FA95B1;
+    margin: 5px auto 17px auto;
+    line-height: 18px;
+}
+
+.choice > .blouse {
+    margin-top: 0px;
+}
+
+.choice > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+.transition {
+    background: #F68DAA;
+    border-radius: 10px;
+    width: 87%;
+    height: 47px;
+    margin: 0 auto;
+}
+
+.forboyschool .description {
+    padding: 0 22px;
+}
+
+.forboyschool .gradient {
+    background-image: url(../img/leafright.svg), url(../img/pinkgradientrightn.png);
+}
+
+.forboyschool .gradient > img {
+    margin-left: -35px;
+    margin-top: -25px;
+}
+
+.forgirlwalk .gradient {
+    background-image: url(../img/leafblue.svg), url(../img/gradientblue.png);
+}
+
+.forgirlwalk .choice, .forboywalk .choice {
+    border: 2px solid #64C6DE;
+}
+
+.forgirlwalk .choice > a > h5, .forboywalk .choice > a > h5 {
+    color: #64C6DE;
+}
+
+.forgirlwalk .transition, .forboywalk .transition {
+    background: #64C6DE;
+}
+
+.forgirlwalk .gradient > img {
+    margin-top: -11px;
+    margin-right: 18px;
+}
+
+.forgirlwalk .undershirt {
+    margin-top: 0;
+}
+
+.forboywalk .gradient {
+    background-image: url(../img/blueleafright.svg), url(../img/bluegradientright.png);
+}
+
+.forboywalk .gradient > img {
+    margin-top: -37px;
+    margin-left: -49px;
+}
+
+.forboywalk .description {
+    padding-left: 0;
+    margin-left: -52px;
+}
+
+.forboywalk .choice > img {
+    margin-top: 0;
+}
+
+.forboywalk .choice > .joggers {
+    margin-top: 35px;
+}
+
+.forgirlKindergarten .gradient {
+    background-image: url(../img/leafviolet.svg), url(../img/violetgradient.png);
+}
+
+.forgirlKindergarten .choice, .forboyKindergarten .choice {
+    border: 2px solid#BB8DF7;
+}
+
+.forgirlKindergarten .choice > a > h5, .forboyKindergarten .choice > a > h5 {
+    color: #BB8DF7;
+}
+
+.forgirlKindergarten .transition, .forboyKindergarten .transition {
+    background:#BB8DF7;
+}
+
+.forgirlKindergarten .gradient > img {
+    margin-top: -25px;
+}
+
+.forgirlKindergarten .choice .t-shirt {
+    margin-top: 0;
+}
+
+.forboyKindergarten .gradient {
+    background-image: url(../img/leafvioletright.svg), url(../img/violetgradientright.png);
+}
+
+.forboyKindergarten .gradient > img {
+    margin-top: 26px;
+    margin-left: 5px;
+}
+
+.forboyKindergarten .description {
+    padding-left: 0;
+    margin-left: -35px;
+}
+
+.forboyKindergarten .choice .t-shirtblue {
+    margin-top: 0;
+}
+
+
+
+/**** winter ****/
+
+
+
+.snow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#winter h3 {
+    margin-top: 30px;
+}
+
+h4 {
+    margin: 30px auto 0 auto;
+    font-family: 'Comfortaa-Bold';
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #70CEE6;
+}
+
+.girlboy {
+    display: flex;
+    justify-content: center;
+    margin: 34px 0;
+}
+
+#winter .girlboy a {
+    color: #70CEE6;
+    text-decoration-line: underline;
+}
+
+span {
+    font-family: 'GothamPro';
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+
+#winter .girlboy .forgirl {
+    color: #FA95B1;
+    text-decoration-line: underline;
+    margin-left: 25px;
+}
+
+.store {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin: auto;
+}
+
+.buy {
+    border: 1px solid #70CEE6;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+#winter h5 {
+    font-family: 'GothamPro';
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    color: #70CEE6;
+    margin: 23px auto 15px auto;
+}
+
+.buy > img {
+    margin-left: 17px;
+    margin-top: 3px;
+}
+
+.buy > .button {
+    background: #70CEE6;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    margin-top: 22px;
+}
+
+.button span {
+    margin: 6px 38px;
+    position: absolute;
+}
+
+.advantage {
+    margin: 50px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+}
+
+
+
+/**** footer ****/
+
+
+
+footer > .eco {
+    height: 120px;
+    width: 100%;
+    background-color: #6AD4EB;
+}
+
+footer > .eco > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.care {
+    height: 330px;
+    background-color: #F1F1F1;
+}
+
+.care h2 {
+    color: #8B8B8B;
+    text-align: center;
+    padding: 60px 0 30px 0;
+}
+
+.care h3 {
+    text-align: justify;
+    margin: 0 auto;
+    width: 83%;
+}
+
+h3 a {
+    color: #70CEE6;
+    text-decoration: underline;
+}
+
+h3 span {
+    color: #70CEE6;
+    font-weight: bold;
+    font-family: 'GothamPro';
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
