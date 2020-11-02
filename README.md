@@ -1,3 +1,3 @@
 # project05
 
-https://reginautsika.github.io/project05/
+https://ginnovich.github.io/project05/
